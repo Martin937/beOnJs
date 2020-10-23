@@ -1,10 +1,19 @@
 //{ @include font(size-$font-size, weight-$font-weight, color-$font-color); }
-@mixin font($f-s:$font-size, $f-w:$font-weight, $f-c: $font-color) {
+@mixin font($f-s:$font-size, $f-w:$font-weight, $f-c:$font-color) {
     font: {
         size: $f-s;
         weight: $f-w;
-        color: $f-c;
     }
+    color: $f-c;
+}
+
+//{ @include title(size-$font-size-title, weight-$font-weight-title, color-$font-color-title); }
+@mixin title($s:$font-size-title, $w:$font-weight-title, $c:$font-color-title) {
+    font: {
+        size: $s;
+        weight: $w;
+    }
+    color: $c;
 }
 
 //{ @include flex (justify-center, align-center); }
