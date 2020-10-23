@@ -1,0 +1,59 @@
+//{ @include font(size-$font-size, weight-$font-weight, color-$font-color); }
+@mixin font($f-s:$font-size, $f-w:$font-weight, $f-c: $font-color) {
+    font: {
+        size: $f-s;
+        weight: $f-w;
+        color: $f-c;
+    }
+}
+
+//{ @include flex (justify-center, align-center); }
+@mixin flex ($justify:center, $align: center) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+//{ @include block-image(weight-100px, height-100px); }
+@mixin block-image($weight:100px, $height:100px) {
+    img {
+        width: 100%;
+        height: auto;
+    }
+    width: $weight;
+    height: $height;
+}
+
+//{ @include center(T-50%, L-50%); }
+@mixin center($top: 50%, $left: 50%) {
+    position: absolute;
+    top: $top;
+    left: $left;
+    transform: translate(-50%, -50%);
+}
+
+//{ @include centerBR(B-50%, R-50%); }
+@mixin centerBR($bottom: 50%, $right: 50%) {
+    position: absolute;
+    bottom: $bottom;
+    right: $right;
+    transform: translate(-50%, -50%);
+}
+
+//{ @include centerX(T-0%, B-auto); }
+@mixin centerX($top:auto, $bottom:auto) {
+    position: absolute;
+    left: 50%;
+    top: $top;
+    bottom: $bottom;
+    transform: translateX(-50%);
+}
+
+//{ @include centerY(L-50%, R-auto); }
+@mixin centerY($left:50%, $right:auto) {
+    position: absolute;
+    top: 50%;
+    left: $left;
+    right: $right;
+    transform: translateY(-50%);
+}

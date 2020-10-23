@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Pragmatica Slab';
+    src: local('Pragmatica Slab Extra Bold'), local('Pragmatica-Slab-Extra-Bold'), url('../fonts/Pragmatica/PragmaticaSlab-ExtraBold.woff2') format('woff2'), url('../fonts/Pragmatica/PragmaticaSlab-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Sans Cyrl';
+    font-display: swap;
+    src: local('MuseoSansCyrl-500'), url('../fonts/Museo/MuseoSansCyrl-500.woff2') format('woff2'), url('../fonts/Museo/MuseoSansCyrl-500.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Sans Cyrl';
+    font-display: swap;
+    src: local('MuseoSansCyrl-300'), url('../fonts/Museo/MuseoSansCyrl-300.woff2') format('woff2'), url('../fonts/Museo/MuseoSansCyrl-300.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Sans Cyrl';
+    font-display: swap;
+    src: local('MuseoSansCyrl-700'), url('../fonts/Museo/MuseoSansCyrl-700.woff2') format('woff2'), url('../fonts/Museo/MuseoSansCyrl-700.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}

@@ -1,0 +1,12 @@
+// 1200px <=
+// 992px - 1199px
+@media (max-width: $desktop) {}
+
+// 768px - 991px
+@media (max-width: $notebook) {}
+
+// 576px - 767px
+@media (max-width: $phablet) {}
+
+// 330px - 575px
+@media (max-width: $phone) {}

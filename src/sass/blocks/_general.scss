@@ -1,0 +1,12 @@
+* {
+    @include font();
+}
+
+body {
+    background-color: #EAE9EF;
+}
+
+.container {
+    max-width: 990px;
+    margin: 0 auto;
+}

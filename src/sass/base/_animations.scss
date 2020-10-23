@@ -1,0 +1,20 @@
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes flickering {
+    0%,
+    100% {
+        text-shadow: 0 0 1vw #f7130d, 0 0 3vw #f7130d, 0 0 10vw #f7130d, 0 0 10vw #f7130d, 0 0 .4vw #f7c81b, .5vw .5vw .1vw #8c7216;
+        color: #f7c81b;
+    }
+    50% {
+        text-shadow: 0 0 .5vw #821411, 0 0 1.5vw #821411, 0 0 5vw #821411, 0 0 5vw #821411, 0 0 .2vw #821411, .5vw .5vw .1vw #463809;
+        color: #8c7216;
+    }
+}
